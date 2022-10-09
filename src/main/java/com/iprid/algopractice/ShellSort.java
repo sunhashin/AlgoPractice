@@ -4,9 +4,13 @@ import java.util.Scanner;
 // 쉘 정렬 (버전 1)
 public class ShellSort {
 	
-	// 쉘 정렬
+	// 쉘 정렬 (버전2)
 	static void shellSort(int[] a, int n) {
-		for (int h = n / 2; h > 0; h /= 2) {
+		int h;
+		for (h = 1; h < n / 9; h = h * 3 + 1)
+			;
+		
+		for ( ; h > 0; h /= 3) {
 			for (int i = h; i < n; i++) {
 				int j;
 				int tmp = a[i];
