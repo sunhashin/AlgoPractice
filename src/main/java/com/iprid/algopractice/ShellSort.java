@@ -25,7 +25,7 @@ public class ShellSort {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		
-		System.out.println("쉘 정렬(버전 1)");
+		System.out.println("쉘 정렬(버전 2)");
 		System.out.print("요소수 : ");
 		int nx = stdIn.nextInt();
 		int[] x = new int[nx];
